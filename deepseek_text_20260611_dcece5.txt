@@ -1,0 +1,34 @@
+your-store-name/
+│
+├── index.html              # Homepage
+├── products.html           # Shop / product grid page
+├── product-detail.html     # Individual product page
+├── cart.html               # Shopping cart page
+├── checkout.html           # Checkout page
+│
+├── css/
+│   └── style.css           # All your styling
+│
+├── js/
+│   ├── main.js             # Navigation, UI interactions
+│   ├── cart.js             # Add to cart, update quantities
+│   └── products.js         # Product data (or fetch from JSON)
+│
+├── assets/
+│   ├── images/
+│   │   ├── products/       # Product photos (vinyl, hoodies, etc.)
+│   │   ├── hero/           # Hero/banner images
+│   │   └── icons/          # Cart, search, social icons
+│   ├── fonts/              # Custom fonts (if any)
+│   └── videos/             # Promo videos (optional)
+│
+├── data/
+│   └── products.json       # Product list (name, price, image, etc.)
+│
+├── includes/               (optional, for server-side includes)
+│   ├── header.html
+│   ├── footer.html
+│   └── cart-modal.html
+│
+├── .gitignore              # Ignore node_modules, .DS_Store, etc.
+└── README.md               # Project description, how to run it
